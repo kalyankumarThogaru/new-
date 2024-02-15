@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  box-sizing: border-box;
+}
+.navbar {
+  position: sticky;
+  background-color: #ebf2ff;
+  background-color: rgb(249, 246, 246);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  width: 100vw;
+}
+
+@media (min-width: 768px) {
+  .logo {
+    width: 100px;
+  }
+  .btn {
+    margin-top: 20px;
+    background-color: red;
+    width: 100px;
+    height: 30px;
+    border-radius: 6px;
+    color: #ebf2ff;
+  }
+}
+@media (min-width: 1024px) {
+  .logo {
+    width: 150px;
+  }
+  .btn {
+    margin-top: 20px;
+    background-color: red;
+    width: 100px;
+    height: 30px;
+  }
+}
+.btn :hover {
+  border: 2px solid black;
+  cursor: pointer;
+}
